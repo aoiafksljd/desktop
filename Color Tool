@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>Color Tool</title>
+</head>
+<body>
+<script>
+function addColor(r, g, b) {
+alert( r + g + b);
+}
+var rvar = prompt('Red:');
+var gvar = prompt('Green:');
+var bvar = prompt('Blue:');
+addColor(rvar, gvar, bvar);
+</script>
+<p>Reload the page to get another color.</p>
+</body>
+</html>
